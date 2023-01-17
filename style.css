@@ -1,0 +1,285 @@
+body {
+	background-image: url("D:/Photos/Pictures/images (33).jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	size: 100%;
+	border-spacing: 10px;
+	text-align: center;
+	font-size: 16pt;
+	color: white;
+	line-height: 25px;
+	min-width: 237px;
+	font-family: arial;
+}
+
+header, main, aside, footer {
+	display: block;
+}
+
+header {
+	padding-top: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	max-height: 50px;
+}
+
+header table tr td nav {
+	margin: 1px auto 1px auto;
+}
+
+header table tr td div {
+	display: table-cell;
+	color: rgba(50, 230, 10, 1);
+}
+
+/*#search {
+	color: rgba(50, 230, 10, 1);
+	border: 1px solid rgba(0, 255, 0, 0.8);
+	max-height: 0px;
+}*/
+
+header table tr td nav div li#navbar-nav {
+	font-family: coming soon;
+	margin: 1px auto 1px auto;
+	text-align: left;
+	display: table-cell;
+	padding-left: 10px;
+	height: 50px;
+	min-width: 200px;
+	max-width: 210px;
+	font-size: 12pt;
+	transition-property: font-size;
+	transition-delay: 200ms;
+	transition-duration: 200ms;
+	transition-timing-function: ease-out;
+}
+
+header table tr td nav div li a {
+	text-decoration: none;
+	color: lavenderblush;
+}
+
+#navbar-nav:hover {
+	font-size: 20pt;
+	/*text-decoration: underline;*/
+}
+
+header table tr td nav div li ul {
+	font-size: 10pt;
+	border-radius: 1em;
+	margin-top: 10%;
+	max-width: 200px;
+	transition-property: transform, background-color, height, opacity;
+	transition-duration: 400ms, 400ms, 300ms;
+	transition-timing-function: ease-out;
+	transition-delay: 200ms;
+	transform: scale(1, 0);
+	background-color: rgba(0, 0, 0, 0.2);
+	transform-origin: top center;
+	opacity: 0;
+	height: 0px;
+}
+
+header table tr td nav div li:hover ul {
+	color: rgba(0, 255, 0, 0.8);
+	transform: scale(1, 1);
+	opacity: 1;
+	height: 250px;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: block;
+}
+
+header table tr td nav div li ul li a {
+	color: rgba(0, 255, 0, 0.8);
+	text-decoration: none;
+}
+
+header table tr td nav div li ul li a:hover {
+	text-decoration: underline;
+}
+
+header table tr td div input {
+	transition-property: outline;
+	transition-duration: 200ms;
+	transition-delay: 50ms;
+	transition-timing-function: ease-in-out;
+	padding: 5px;
+	border: none;
+	color: white;
+	border-bottom: 1px solid rgba(0, 255, 0, 0.8);
+	background-color: inherit;
+	outline: none;
+	height: 2em;
+	outline: none;
+}
+
+header table tr td div input:hover {
+	outline: green;
+}
+
+header table tr td div button {
+	/*float: left;*/
+	transition-property: background-color;
+	transition-duration: 200ms;
+	transition-delay: 50ms;
+	transition-timing-function: ease-in-out;
+	background-color: rgba(0, 255, 0, 0.5);
+	border: none;
+	color: rgba(255, 255, 255, 0.5);
+	height: 3em;
+	outline: none;
+}
+
+header table tr td div button:hover {
+	background-color: rgba(0, 255, 0, 0.9);
+}
+
+header table tr td div button:focus {
+	background-color: rgba(0, 255, 0, 0.2);
+}
+
+main {
+	float: right;
+	margin: 10% 10% 0% auto;
+	width: 500px;
+	height: 480px;
+	border-radius: 10px;
+	display: grid;
+	place-items: center;
+	background-color: black;
+	font-family: segoe print;
+}
+main div {
+	display: block;
+	place-items: center;
+	padding: 10px;
+}
+
+form {
+	/*display: table;*/
+	display: grid;
+	text-align: center;
+	line-height: 10px;
+}
+
+form label {
+	padding: 30px 10px 10px 10px;
+	text-align: left;
+}
+
+form input {
+	width: 30em;
+	height: 50px;
+	border: none;
+	background-color: inherit;
+	border-bottom: 1px solid white;
+	text-align: left;
+	color: white;
+}
+
+form input:hover {
+	border-bottom: 2px solid green;
+}
+
+form input:focus {
+	outline: none;
+}
+
+form button {
+	transition-property: background-color;
+	transition-duration: 200ms;
+	transition-delay: 50ms;
+	transition-timing-function: ease-in-out;
+	margin-top: 5%;
+	width: 100%;
+	height: 3em;
+	border-radius: 1em;
+	border: none;
+	background-color: green;
+	color: white;
+	font-size: 12pt;
+	outline: none;
+	font-family: segoe print;
+}
+
+form button:hover {
+	background-color: rgba(0, 255, 0, 0.9);
+}
+
+form button:focus {
+
+	background-color: rgba(0, 255, 0, 0.2);
+}
+
+form p a {
+	color: blue;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	margin: 10% 0% 10% 5%;
+	color: lavenderblush;
+	text-align: left;
+	font-family: segoe print;
+}
+
+h2 {
+	color: rgba(50, 230, 10, 1);
+	font-family: gabriola;
+}
+
+hr {
+	background-color: rgba(50, 230, 10, 1);
+}
+
+footer {
+	clear: both;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+}
+
+footer div#footware {
+	width: 96%;
+	position: inherit;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+footer div {
+	display: inline;
+	float: left;
+	padding-left: 40px;
+	padding-right: 10px;
+	font-size: 10pt;
+	text-align: left;
+}
+
+footer div p {
+	display: block;
+}
+
+#title {
+	font-size: 30pt;
+	font-family: cursive;
+}
+
+#prompt {
+	text-decoration: underline;
+	float: left;
+	font-style: italic;
+}
+
+#search button {
+	font-family: segoe print;
+}
+/*#search {
+	border: 1px solid rgba(0, 255, 0, 1.0);
+	box-sizing: 10px 5px 10px 5px;
+}*/
